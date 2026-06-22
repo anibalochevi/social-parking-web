@@ -40,12 +40,6 @@ body {
   align-items: center;
 }
 
-.logo img {
-  height: 44px;
-  width: auto;
-  display: block;
-}
-
 .nav a {
   margin-left: 16px;
   text-decoration: none;
