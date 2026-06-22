@@ -140,7 +140,7 @@ body {
 /* Hero image */
 
 .hero-image {
-  flex: 1 1 420px;
+  flex: 1 1 380px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,11 +148,11 @@ body {
 
 .hero-image img {
   width: 100%;
-  max-width: 500px;
-  height: auto;
+  max-width: 420px;
+  max-height: 320px;
+  object-fit: contain;
   display: block;
   border-radius: 20px;
-  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.12);
 }
 
 /* Secciones */
