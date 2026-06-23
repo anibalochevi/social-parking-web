@@ -25,11 +25,18 @@ body {
   background: #0d4fc4;
 }
 
+.brand-banner {
+  width: 100%;
+  background: #0d4fc4;
+  display: flex;
+  justify-content: center;
+}
+
 .brand-banner img {
   width: 100%;
-  max-height: 140px;
-  object-fit: cover;
+  height: auto;
   display: block;
+  object-fit: contain;
 }
 
 /* Barra navegación */
