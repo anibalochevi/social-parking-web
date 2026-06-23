@@ -8,40 +8,27 @@
     name="description"
     content="Social Parking es una app colaborativa para coordinar relevos de plazas de aparcamiento en la vía pública y reducir las vueltas buscando sitio."
   />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body>
+
   <header>
 
-  <div class="brand-banner">
-    <img src="hero-socialparking.png" alt="Social Parking" />
-  </div>
-
-  <div class="topbar">
-    <div class="container topbar-inner">
-      <nav class="nav">
-        <a href="#como-funciona">Cómo funciona</a>
-        <a href="#ventajas">Ventajas</a>
-        <a href="#beta">Beta</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
+    <div class="brand-banner">
+      <img src="hero-socialparking.png" alt="Social Parking" />
     </div>
-  </div>
 
-</header>
-    <div class="container topbar-inner">
-
-      <div class="logo">
-        <img src="hero-socialparking.png" alt="Social Parking" />
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <nav class="nav">
+          <a href="#como-funciona">Cómo funciona</a>
+          <a href="#ventajas">Ventajas</a>
+          <a href="#beta">Beta</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
       </div>
-
-      <nav class="nav">
-        <a href="#como-funciona">Cómo funciona</a>
-        <a href="#ventajas">Ventajas</a>
-        <a href="#beta">Beta</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
     </div>
+
   </header>
 
   <main>
@@ -86,8 +73,8 @@
             <div class="step-number">1</div>
             <h3>Compartes tu salida</h3>
             <p>
-              Cuando vas a salir con el coche, abres Social Parking, pulsas
-              “Compartir mi plaza” y marcas en cuánto tiempo te marchas.
+              Cuando vas a salir con el coche, abres Social Parking y marcas
+              en cuánto tiempo te marchas.
             </p>
           </div>
 
@@ -96,7 +83,7 @@
             <h3>Otro conductor coordina contigo</h3>
             <p>
               Las personas cercanas ven que tu plaza va a quedar libre y pueden
-              avisarte de que van hacia allí para coordinar el relevo.
+              avisarte de que van hacia allí.
             </p>
           </div>
 
@@ -104,8 +91,7 @@
             <div class="step-number">3</div>
             <h3>Se produce el relevo</h3>
             <p>
-              Tú sales con normalidad y la otra persona ocupa la plaza justo
-              después, reduciendo tiempo de búsqueda y tráfico innecesario.
+              Tú sales y otra persona ocupa la plaza justo después.
             </p>
           </div>
         </div>
@@ -120,80 +106,44 @@
         <div class="grid-3">
           <div class="card">
             <h3>Menos vueltas</h3>
-            <p>Menos tiempo dando círculos y más tiempo donde realmente quieres estar.</p>
+            <p>Menos tiempo buscando y más tiempo aprovechando.</p>
           </div>
 
           <div class="card">
             <h3>Menos emisiones</h3>
-            <p>Reducimos tráfico innecesario y contaminación en la ciudad.</p>
+            <p>Menos tráfico innecesario y menos contaminación.</p>
           </div>
 
           <div class="card">
             <h3>Más comunidad</h3>
-            <p>Conductores ayudando a otros conductores a aparcar mejor.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- INCENTIVO -->
-    <section class="section">
-      <div class="container">
-        <h2>¿Por qué compartir tu plaza?</h2>
-
-        <div class="grid-3">
-          <div class="card">
-            <h3>Ayudas a otros</h3>
-            <p>Compartiendo una plaza que ibas a dejar libre haces más fácil el aparcamiento a otra persona.</p>
-          </div>
-
-          <div class="card">
-            <h3>Construyes reputación</h3>
-            <p>Cada relevo suma experiencia y mejora tu perfil dentro de la comunidad.</p>
-          </div>
-
-          <div class="card">
-            <h3>Hoy ayudas, mañana te ayudan</h3>
-            <p>Cuantos más conductores compartan, más fácil será encontrar plaza cuando tú la necesites.</p>
+            <p>Conductores ayudando a otros conductores.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- BETA -->
-    <section id="beta" class="section section-alt">
-      <div class="container beta">
-        <div>
-          <h2>Estamos en fase beta</h2>
+    <section id="beta" class="section">
+      <div class="container">
+        <h2>Estamos en fase beta</h2>
 
-          <p>
-            Estamos buscando los primeros conductores de Santa Cruz de Tenerife
-            para probar Social Parking en condiciones reales.
-          </p>
+        <p>
+          Buscamos los primeros usuarios de Santa Cruz para probar la app.
+        </p>
 
-          <p>
-            Si te mueves por el centro, aparcas con frecuencia y quieres formar
-            parte de esta primera comunidad, escríbenos.
-          </p>
-
-          <p class="beta-mail">
-            <a href="mailto:contacto@socialparking.app">contacto@socialparking.app</a>
-          </p>
-
-          <p class="beta-note">
-            De momento solo disponible para Android.
-          </p>
-        </div>
+        <p class="beta-mail">
+          <a href="mailto:contacto@socialparking.app">contacto@socialparking.app</a>
+        </p>
       </div>
     </section>
 
     <!-- CONTACTO -->
-    <section id="contacto" class="section">
+    <section id="contacto" class="section section-alt">
       <div class="container">
         <h2>Contacto</h2>
 
         <p>
-          Social Parking es un proyecto desarrollado por
+          Proyecto desarrollado por
           <strong>Aníbal Zebensui Fernández Ledesma</strong>.
         </p>
 
@@ -215,5 +165,6 @@
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>
